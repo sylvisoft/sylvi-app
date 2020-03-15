@@ -1,4 +1,4 @@
-var cacheName = 'hello-pwa';
+var cacheName = 'sylvi-app';
 var filesToCache = [
   '/',
   '/index.html',
