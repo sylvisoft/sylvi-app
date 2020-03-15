@@ -41,7 +41,9 @@
 	<option>darkolivegreen
 	</select>
 	<br>
+	<br>
 	<input type="button" value="Aloita" onClick="startit()">
+	<br>
 	<br>
 	<input type="button" value="Stop" onClick="stopTest()">
 	</form>
@@ -50,8 +52,6 @@
   
   <script language="JavaScript">
 <!-- hiding for old browsers
-	// response time test, created by Jasper van Zandbeek
-	// e-mail: jasperz@net-v.com
 
 var startTime=new Date();
 var endTime=new Date();
@@ -71,17 +71,17 @@ function remark(responseTime)
 {
 	var responseString="";
 	if (responseTime < 0.10)
-		responseString="Well done!";
+		responseString="Hyvä!";
 	if (responseTime >= 0.10 && responseTime < 0.20)
-		responseString="Nice!";
+		responseString="Jess!";
 	if (responseTime >=0.20 && responseTime < 0.30)
-		responseString="Could be better...";
+		responseString="OK...";
 	if (responseTime >=0.30 && responseTime < 0.60)
-		responseString="Keep practising!";
+		responseString="No joo...";
 	if (responseTime >=0.60 && responseTime < 1)
-		responseString="Have you been drinking?";
+		responseString="Harjoittele!";
 	if (responseTime >=1)
-		responseString="Did you fall asleep?";
+		responseString="Nukahditko?";
 
 	return responseString;
 }
