@@ -18,6 +18,31 @@
 <body class="fullscreen">
   <div class="container">
     <h1 class="title">Oletko yhtä nopea kuin pystäri?</h1>
+	<br>
+	Klikkaa "Aloita" ja taustavärin vaihtuessa "Stop".
+	<br>
+	<form name="response">
+	Change background color in: 
+	<select name="bgColorChange">
+	<option selected>deeppink
+	<option>aliceblue
+	<option>crimson
+	<option>darkkhaki
+	<option>cadetblue
+	<option>darkorchid
+	<option>coral
+	<option>chocolate
+	<option>mediumslateblue
+	<option>tomato
+	<option>darkslategray
+	<option>limegreen
+	<option>cornflowerblue
+	<option>darkolivegreen
+	<br>
+	<input type="button" value="Aloita" onClick="startit()">
+	<br>
+	<input type="button" value="Stop" onClick="stopTest()">
+	</form>
   </div>
   <script src="js/main.js"></script>
   
@@ -112,33 +137,6 @@ function startit()
 // --> 
 </script>
 	
-<div class="container">
-	<p>Test your Response time!</p>
-	Click on "Start" first, and wait until the background color changes. As soon as it changes, hit "stop!"
-
-
-	<form name="response">
-	Change background color in: 
-	<select name="bgColorChange">
-	<option selected>deeppink
-	<option>aliceblue
-	<option>crimson
-	<option>darkkhaki
-	<option>cadetblue
-	<option>darkorchid
-	<option>coral
-	<option>chocolate
-	<option>mediumslateblue
-	<option>tomato
-	<option>darkslategray
-	<option>limegreen
-	<option>cornflowerblue
-	<option>darkolivegreen
-	</select>
-	<input type="button" value="start" onClick="startit()">
-	<input type="button" value="stop" onClick="stopTest()">
-	</form>
-</div>
   
 </body>
 </html>
