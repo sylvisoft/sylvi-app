@@ -17,7 +17,7 @@
 </head>
 <body class="fullscreen">
   <div class="container">
-    <h1 class="title">Oletko yhtä nopea kuin pystäri?</h1>
+    <h1 class="title">Oletko yhtä nopea kuin Sylvi?</h1>
 	<br>
 	Klikkaa "Aloita" ja taustavärin vaihtuessa "Stop".
 	<br>
@@ -71,11 +71,11 @@ function remark(responseTime)
 {
 	var responseString="";
 	if (responseTime < 0.10)
-		responseString="Hyvä!";
+		responseString="Olet yhtä nopea kuin Sylvi!";
 	if (responseTime >= 0.10 && responseTime < 0.20)
 		responseString="Jess!";
 	if (responseTime >=0.20 && responseTime < 0.30)
-		responseString="OK...";
+		responseString="Sylvi on paljon nopeampi!:)";
 	if (responseTime >=0.30 && responseTime < 0.60)
 		responseString="No joo...";
 	if (responseTime >=0.60 && responseTime < 1)
