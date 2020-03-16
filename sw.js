@@ -1,6 +1,6 @@
 var cacheName = 'sylvi-app';
 var filesToCache = [
-  './',
+  /*'./',*/
   /*'./index.html',*/
   './css/style.css',
   './js/main.js'
